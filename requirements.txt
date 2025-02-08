@@ -1,0 +1,4 @@
+gradio
+llama-cpp-python
+sqlite3
+pandas

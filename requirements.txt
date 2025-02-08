@@ -1,4 +1,4 @@
-gradio
+streamlit
 llama-cpp-python
 db-sqlite3
 pandas

@@ -2,6 +2,13 @@
 
 A natural language interface for querying SQLite databases, built with Streamlit and Gradio. The application allows users to interact with employee and department data using simple English queries.
 
+## File Structure
+
+- `app.py`: Streamlit web interface
+- `gradio_app.py`: [Gradio interface implementation](https://huggingface.co/spaces/aryanoutlaw/sqlite-chatbot)
+- `logic.py`: Query processing and LLM integration
+- `database.py`: Database management and operations
+
 ## Features
 
 - **Natural Language Queries**: Ask questions about employees and departments in plain English
@@ -62,12 +69,6 @@ python gradio_app.py
 - Restricted query types
 - Protected database operations
 
-## File Structure
-
-- `app.py`: Streamlit web interface
-- `gradio_app.py`: [Gradio interface implementation](https://huggingface.co/spaces/aryanoutlaw/sqlite-chatbot)
-- `logic.py`: Query processing and LLM integration
-- `database.py`: Database management and operations
 
 ## Key Components
 

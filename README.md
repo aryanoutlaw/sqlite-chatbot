@@ -3,18 +3,15 @@
 A natural language interface for querying SQLite databases, built with Streamlit and Gradio. The application allows users to interact with employee and department data using simple English queries.
 
 ## File Structure
-
-- `app.py`: Streamlit web interface
-- `gradio_app.py`: [Gradio interface implementation](https://huggingface.co/spaces/aryanoutlaw/sqlite-chatbot)
+- `app.py`: [Gradio interface implementation](https://huggingface.co/spaces/aryanoutlaw/sqlite-chatbot)
 - `logic.py`: Query processing and LLM integration
 - `database.py`: Database management and operations
 
 ## Features
 
 - **Natural Language Queries**: Ask questions about employees and departments in plain English
-- **Multiple Interface Options**: 
-  - Streamlit web interface
-  - Gradio interface
+- **Interface**: 
+  -Gradio interface
 - **Database Preview**: View sample data from both Employees and Departments tables
 - **Real-time Statistics**: Monitor key metrics about employees and departments
 - **Example Queries**: Built-in example queries to help users get started
@@ -22,8 +19,7 @@ A natural language interface for querying SQLite databases, built with Streamlit
 ## Technology Stack
 
 - **Frontend**: 
-  - Streamlit
-  - Gradio (alternative interface)
+  - Gradio
 - **Backend**:
   - Python
   - SQLite
@@ -35,18 +31,13 @@ A natural language interface for querying SQLite databases, built with Streamlit
 1. Clone the repository
 2. Install dependencies:
 ```bash
-pip install streamlit gradio llama-cpp-python pandas db-sqlite3
+pip install gradio llama-cpp-python pandas db-sqlite3
 ```
 3. Download the Qwen model:
    - Required model: `qwen2.5-coder-1.5b-instruct-q3_k_m.gguf`
    - Place it in the root directory
 
 ## Usage
-
-### Streamlit Interface
-```bash
-streamlit run app.py
-```
 
 ### Gradio Interface
 ```bash

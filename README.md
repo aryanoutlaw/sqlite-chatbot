@@ -1,6 +1,6 @@
 # SQLite Chat Assistant
 
-A natural language interface for querying SQLite databases, built with Streamlit and Gradio. The application allows users to interact with employee and department data using simple English queries.
+A natural language interface for querying SQLite databases, built with Gradio. The application allows users to interact with employee and department data using simple English queries.
 
 ## File Structure
 - `app.py`: [Gradio interface implementation](https://huggingface.co/spaces/aryanoutlaw/sqlite-chatbot)
